@@ -11,7 +11,7 @@ ext {
 }
 
 dependencies {
-    implementation project(':core')
+    implementation 'com.github.nhat292.StreamPack:streampack:main-SNAPSHOT'
     implementation 'video.api:rtmpdroid:1.2.1'
 
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3'
